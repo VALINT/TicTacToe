@@ -1,2 +1,5 @@
 # TicTacToe
-TicTacToe game on avr microcontroller (AtMega8/ AtMega328/ AtMega168(Not compiled))
+TicTacToe game on avr microcontroller (AtMega8)
+
+ Device schematic:
+    ![Device schematic](TicTacToe/Hardware/Schematic.png)

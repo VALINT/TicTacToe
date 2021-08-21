@@ -26,13 +26,14 @@ void MCU_Init()														//Initialization MCU
 	MATRIX_DDR |= (1 << BAR_1)|(1 << BAR_2)|(1 << BAR_3);
 	
 	SPCR |= (1 << SPE)|(1 << MSTR);									//setting SPI
+	SPSR |= (1 << SPI2X);
 	
 	asm("sei");														//SREG = (1 << I), global interrapt is enable
 }
 
 void Timer0_Init()
 {
-		TCCR0 |= (1 << CS01)|(1 << CS00)|(SPI2X);					//Timer 0 prescaler on 1024, interrupt 30 per second
+		TCCR0 |= (1 << CS01)|(1 << CS00);					//Timer 0 prescaler on 1024, interrupt 30 per second
 		TIMSK |= (1 << TOIE0);										//Timer 0 interrupt enable
 		asm("sei");						
 }
@@ -68,6 +69,8 @@ int main(void)
 	
 	Timer0_Init();
 
+	printer();
+
 	while(1)
 	{	
 		if (new_frame)
@@ -76,10 +79,10 @@ int main(void)
 			check_matrix(&keyboard);
 			int8_t x = get_click(&keyboard);
 			ButtonProcessor(x);
-			if(!cntr)
+	/*		if(!cntr)
 			{
 				printer();
-			}
+			}*/
 		}
 	}
 }

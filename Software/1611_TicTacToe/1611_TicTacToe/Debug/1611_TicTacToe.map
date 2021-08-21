@@ -1,0 +1,652 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+                              Game.o (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+                              Game.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+PvP                 0x1               Game.o
+keyboard            0x5b              main.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+ .text          0x00000000        0x0 buttons.o
+ .data          0x00000000        0x0 buttons.o
+ .bss           0x00000000        0x0 buttons.o
+ .text          0x00000000        0x0 Game.o
+ .data          0x00000000        0x0 Game.o
+ .bss           0x00000000        0x0 Game.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 matrix_keyboard.o
+ .data          0x00000000        0x0 matrix_keyboard.o
+ .bss           0x00000000        0x0 matrix_keyboard.o
+ .text          0x00000000        0x0 SiemensA55LCD.o
+ .data          0x00000000        0x0 SiemensA55LCD.o
+ .bss           0x00000000        0x0 SiemensA55LCD.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x00000400         rw !x
+eeprom           0x00810000         0x00000200         rw !x
+fuse             0x00820000         0x00000002         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+LOAD buttons.o
+LOAD Game.o
+LOAD main.o
+LOAD matrix_keyboard.o
+LOAD SiemensA55LCD.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4\libc.a
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4\libatmega8a.a
+END GROUP
+                [0x00000000]                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800060]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00002000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x2000
+                [0x00000400]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000200]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000002]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1e2e
+ *(.vectors)
+ .vectors       0x00000000       0x26 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000026                . = ALIGN (0x2)
+                0x00000026                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000026        0x0 linker stubs
+ *(.trampolines*)
+                0x00000026                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.Two
+                0x00000026       0x10 Game.o
+                0x00000026                Two
+ .progmem.data.One
+                0x00000036       0x10 Game.o
+                0x00000036                One
+ .progmem.data.WIN
+                0x00000046       0x38 Game.o
+                0x00000046                WIN
+ .progmem.data.DRAW
+                0x0000007e       0x58 Game.o
+                0x0000007e                DRAW
+ .progmem.data.PLAYER
+                0x000000d6       0x66 Game.o
+                0x000000d6                PLAYER
+ .progmem.data.Figure
+                0x0000013c       0x60 Game.o
+                0x0000013c                Figure
+ .progmem.data.About
+                0x0000019c      0x330 Game.o
+                0x0000019c                About
+ .progmem.data.Frame
+                0x000004cc      0x330 Game.o
+                0x000004cc                Frame
+ .progmem.data.MenyScreen
+                0x000007fc      0x330 Game.o
+                0x000007fc                MenyScreen
+ .progmem.data.Name
+                0x00000b2c      0x330 main.o
+                0x00000b2c                Name
+ .progmem.data.StartPage
+                0x00000e5c      0x330 main.o
+                0x00000e5c                StartPage
+ .progmem.data.Symbols
+                0x0000118c       0x82 SiemensA55LCD.o
+                0x0000118c                Symbols
+                0x0000120e                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000120e                __ctors_start = .
+ *(.ctors)
+                0x0000120e                __ctors_end = .
+                0x0000120e                __dtors_start = .
+ *(.dtors)
+                0x0000120e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000120e        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+                0x0000120e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000120e        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000121a       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_copy_data.o)
+                0x0000121a                __do_copy_data
+ .init4         0x00001230       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+                0x00001230                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00001240        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+ *(.init9)
+ *(.text)
+ .text          0x00001244        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+                0x00001244                __vector_1
+                0x00001244                __vector_12
+                0x00001244                __bad_interrupt
+                0x00001244                __vector_6
+                0x00001244                __vector_3
+                0x00001244                __vector_11
+                0x00001244                __vector_13
+                0x00001244                __vector_17
+                0x00001244                __vector_7
+                0x00001244                __vector_5
+                0x00001244                __vector_4
+                0x00001244                __vector_2
+                0x00001244                __vector_15
+                0x00001244                __vector_8
+                0x00001244                __vector_14
+                0x00001244                __vector_10
+                0x00001244                __vector_16
+                0x00001244                __vector_18
+                0x00001246                . = ALIGN (0x2)
+ *(.text.*)
+ .text.init_button
+                0x00001246       0x24 buttons.o
+                0x00001246                init_button
+ .text.check_button
+                0x0000126a       0x9a buttons.o
+                0x0000126a                check_button
+ .text.get_bt_state
+                0x00001304        0x6 buttons.o
+                0x00001304                get_bt_state
+ .text.set_bt_state
+                0x0000130a        0x6 buttons.o
+                0x0000130a                set_bt_state
+ .text.ResetMatrix
+                0x00001310       0x34 Game.o
+                0x00001310                ResetMatrix
+ .text.refresh_state
+                0x00001344       0x72 Game.o
+                0x00001344                refresh_state
+ .text.printer  0x000013b6      0x134 Game.o
+                0x000013b6                printer
+ .text.WinnerPrint
+                0x000014ea       0xaa Game.o
+                0x000014ea                WinnerPrint
+ .text.Results  0x00001594       0xb6 Game.o
+                0x00001594                Results
+ .text.Menu     0x0000164a       0x64 Game.o
+                0x0000164a                Menu
+ .text.ButtonProcessor
+                0x000016ae      0x3aa Game.o
+                0x000016ae                ButtonProcessor
+ .text.MCU_Init
+                0x00001a58       0x1c main.o
+                0x00001a58                MCU_Init
+ .text.Timer0_Init
+                0x00001a74       0x10 main.o
+                0x00001a74                Timer0_Init
+ .text.__vector_9
+                0x00001a84       0x32 main.o
+                0x00001a84                __vector_9
+ .text.main     0x00001ab6       0x8a main.o
+                0x00001ab6                main
+ .text.init_matrix
+                0x00001b40       0x5c matrix_keyboard.o
+                0x00001b40                init_matrix
+ .text.check_matrix
+                0x00001b9c       0xa8 matrix_keyboard.o
+                0x00001b9c                check_matrix
+ .text.get_click
+                0x00001c44        0xa matrix_keyboard.o
+                0x00001c44                get_click
+ .text.LCD_Sent_Byte
+                0x00001c4e       0x16 SiemensA55LCD.o
+                0x00001c4e                LCD_Sent_Byte
+ .text.LCD_Reset
+                0x00001c64       0x1c SiemensA55LCD.o
+                0x00001c64                LCD_Reset
+ .text.LCD_Init
+                0x00001c80       0x4a SiemensA55LCD.o
+                0x00001c80                LCD_Init
+ .text.LCD_Set_Cordinates
+                0x00001cca       0x22 SiemensA55LCD.o
+                0x00001cca                LCD_Set_Cordinates
+ .text.LCD_clear
+                0x00001cec       0x28 SiemensA55LCD.o
+                0x00001cec                LCD_clear
+ .text.LCD_print
+                0x00001d14       0x50 SiemensA55LCD.o
+                0x00001d14                LCD_print
+ .text.LCD_print_screen
+                0x00001d64       0x38 SiemensA55LCD.o
+                0x00001d64                LCD_print_screen
+ .text.LCD_print_picture
+                0x00001d9c       0x8e SiemensA55LCD.o
+                0x00001d9c                LCD_print_picture
+                0x00001e2a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001e2a        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+                0x00001e2a                _exit
+                0x00001e2a                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001e2a        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001e2e                _etext = .
+
+.data           0x00800060       0x1a load address 0x00001e2e
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.player1  0x00800060        0x1 Game.o
+                0x00800060                player1
+ .data.MatZeros
+                0x00800061        0x1 Game.o
+                0x00800061                MatZeros
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.test   0x00800062       0x18 Game.o
+                0x00800062                test
+ *(.gnu.linkonce.r*)
+                0x0080007a                . = ALIGN (0x2)
+                0x0080007a                _edata = .
+                0x0080007a                PROVIDE (__data_end, .)
+
+.bss            0x0080007a       0x6b
+                0x0080007a                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.fr        0x0080007a        0x1 Game.o
+                0x0080007a                fr
+ .bss.winnn     0x0080007b        0x1 Game.o
+                0x0080007b                winnn
+ .bss.Play2     0x0080007c        0x1 Game.o
+                0x0080007c                Play2
+ .bss.Play1     0x0080007d        0x1 Game.o
+                0x0080007d                Play1
+ .bss.game_field
+                0x0080007e        0x9 Game.o
+                0x0080007e                game_field
+ .bss.cntr      0x00800087        0x1 main.o
+                0x00800087                cntr
+ .bss.new_frame
+                0x00800088        0x1 main.o
+                0x00800088                new_frame
+ *(COMMON)
+ COMMON         0x00800089        0x1 Game.o
+                0x00800089                PvP
+ COMMON         0x0080008a       0x5b main.o
+                0x0080008a                keyboard
+                0x008000e5                PROVIDE (__bss_end, .)
+                0x00001e2e                __data_load_start = LOADADDR (.data)
+                0x00001e48                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000e5        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x008000e5                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 buttons.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 Game.o
+ .comment       0x00000030       0x31 main.o
+ .comment       0x00000030       0x31 matrix_keyboard.o
+ .comment       0x00000030       0x31 SiemensA55LCD.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x148
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 buttons.o
+ .debug_aranges
+                0x00000038       0x50 Game.o
+ .debug_aranges
+                0x00000088       0x38 main.o
+ .debug_aranges
+                0x000000c0       0x30 matrix_keyboard.o
+ .debug_aranges
+                0x000000f0       0x58 SiemensA55LCD.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x21d8
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x48c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+ .debug_info    0x0000048c      0x252 buttons.o
+ .debug_info    0x000006de      0xb63 Game.o
+ .debug_info    0x00001241      0x514 main.o
+ .debug_info    0x00001755      0x3d7 matrix_keyboard.o
+ .debug_info    0x00001b2c      0x6ac SiemensA55LCD.o
+
+.debug_abbrev   0x00000000      0xdb7
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x44e C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+ .debug_abbrev  0x0000044e      0x122 buttons.o
+ .debug_abbrev  0x00000570      0x2b7 Game.o
+ .debug_abbrev  0x00000827      0x1ec main.o
+ .debug_abbrev  0x00000a13      0x1ba matrix_keyboard.o
+ .debug_abbrev  0x00000bcd      0x1ea SiemensA55LCD.o
+
+.debug_line     0x00000000      0xfa9
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x10a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+ .debug_line    0x0000010a      0x1ba buttons.o
+ .debug_line    0x000002c4      0x5a2 Game.o
+ .debug_line    0x00000866      0x25c main.o
+ .debug_line    0x00000ac2      0x1f6 matrix_keyboard.o
+ .debug_line    0x00000cb8      0x2f1 SiemensA55LCD.o
+
+.debug_frame    0x00000000      0x398
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x70 buttons.o
+ .debug_frame   0x00000070      0x114 Game.o
+ .debug_frame   0x00000184       0x64 main.o
+ .debug_frame   0x000001e8       0x98 matrix_keyboard.o
+ .debug_frame   0x00000280      0x118 SiemensA55LCD.o
+
+.debug_str      0x00000000      0x642
+ *(.debug_str)
+ .debug_str     0x00000000      0x17a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega8a/avr4/crtatmega8a.o
+ .debug_str     0x0000017a      0x219 buttons.o
+                                0x25a (size before relaxing)
+ .debug_str     0x00000393      0x1a1 Game.o
+                                0x3bd (size before relaxing)
+ .debug_str     0x00000534       0x64 main.o
+                                0x33b (size before relaxing)
+ .debug_str     0x00000598       0x2b matrix_keyboard.o
+                                0x2e6 (size before relaxing)
+ .debug_str     0x000005c3       0x7f SiemensA55LCD.o
+                                0x2d8 (size before relaxing)
+
+.debug_loc      0x00000000     0x125d
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x10c buttons.o
+ .debug_loc     0x0000010c      0x81c Game.o
+ .debug_loc     0x00000928      0x16f main.o
+ .debug_loc     0x00000a97      0x21d matrix_keyboard.o
+ .debug_loc     0x00000cb4      0x5a9 SiemensA55LCD.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x160
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x28 buttons.o
+ .debug_ranges  0x00000028       0xa8 Game.o
+ .debug_ranges  0x000000d0       0x28 main.o
+ .debug_ranges  0x000000f8       0x20 matrix_keyboard.o
+ .debug_ranges  0x00000118       0x48 SiemensA55LCD.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(1611_TicTacToe.elf elf32-avr)
+LOAD linker stubs

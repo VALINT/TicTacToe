@@ -109,12 +109,12 @@ void LCD_Set_Cordinates(int XX, int YY)
 {
 	LCD_Sent_Byte(0x80+XX,COMMAND);
 	LCD_Sent_Byte(0x40+YY,COMMAND);
-	_delay_us(100);
 }
 
 void LCD_clear()											//Clear LCD,fill RAM LCD by empty bytes
 {
 	LCD_Set_Cordinates(0,0);
+	SentDATA
 	for(int smbl = 0; smbl < 816; smbl++)
 	{
 		LCD_Sent_Byte(0,DATA);
@@ -140,21 +140,22 @@ void LCD_print_screen(const char* screen)
 	LCD_Set_Cordinates(0,0);
 	for(int smbl = 0; smbl < 832; smbl++)
 	{
-		buffer = pgm_read_byte(screen+smbl);
+		buffer = pgm_read_byte(screen+smbl);	
 		LCD_Sent_Byte(buffer,DATA);
 	}
 }
 
 void LCD_print_picture(const char* picture, uint8_t x, uint8_t y, uint8_t size_x, uint8_t size_y)
 {
-	LCD_Set_Cordinates(x,y);
-	for(int8_t i = 0; i < size_y; i++)
+	uint8_t y_buf = 0;
+	for(int16_t i = (int16_t)picture; i < ((int16_t)picture + (size_y * size_x)); i = i + size_x)
 	{
-		if(i == 1){LCD_Set_Cordinates(x,y+i);}
-		for(int8_t j = 0; j < size_x; j++)
+		LCD_Set_Cordinates(x,y+y_buf);
+		for(int16_t j = i; j < (i + size_x); j++)
 		{
-			int8_t b = pgm_read_byte(picture + j + i * size_x);
+			int8_t b = pgm_read_byte((const char*)j);
 			LCD_Sent_Byte(b,DATA);
 		}
+		y_buf++;
 	}
 }

@@ -169,6 +169,7 @@ void WinnerPrint(int result)
 	ResetMatrix();
 	_delay_ms(2000);
 	LCD_clear();
+	printer();
 	TIMSK |= (1 << TOIE0);
 }
 
@@ -200,6 +201,24 @@ void Results(int input)
 			fr = false;
 			WinnerPrint(0);
 		}
+	}
+}
+
+void refresh_state(uint8_t button)
+{
+	int XX,YY;
+	YY = (2*(button/3+1))-1;
+	XX = (16*(button%3+1))+33;
+	
+	LCD_print_picture(&(Figure[game_field[button]][0]), XX, YY, 16, 2);
+	
+	if(player1 == true)
+	{
+		LCD_print_picture(&One[0], 20,3,8,2);
+	}
+	else
+	{
+		LCD_print_picture(&Two[0], 20,3,8,2);
 	}
 }
 
@@ -359,6 +378,7 @@ if((PvP == false)&(player1 == false))
 		MatZeros--;
 		Results(MatZeros);
 		_delay_ms(500);
+		printer();
 	return;
 }
 
@@ -373,6 +393,7 @@ if(player1 == true)
 			player1 = false;
 			MatZeros--;
 			Results(MatZeros);
+			refresh_state(button);
 		}			
 	}
 	if((player1 == false)&(PvP == true))
@@ -383,6 +404,7 @@ if(player1 == true)
 			player1 = true;
 			MatZeros--;
 			Results(MatZeros);
+			refresh_state(button);
 		}
 	}
 	else{return;}
